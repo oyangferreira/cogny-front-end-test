@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-right: 120px;
+}
+
+.logo__text {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+}
+
+.logo img {
+  max-width: 50px;
+  margin-left: 10px;
+}

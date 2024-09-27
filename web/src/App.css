@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+/* General body style */
+body {
+  background-color: #191920;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Header styling */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #191920;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between; /* Keeps logo and cart spaced apart */
+  padding: 10px 20px; /* Smaller padding for a consistent layout */
+  max-width: 800px; /* Fixed width to prevent layout changes on large screens */
+  margin: 0 auto; /* Centers the header horizontally */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
 }
 
-.App-link {
-  color: #61dafb;
+/* Cart styling */
+.cart {
+  font-size: 1.2rem;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Cart text */
+.cart span {
+  display: block;
+  font-size: 0.8rem;
+  color: #ccc;
 }

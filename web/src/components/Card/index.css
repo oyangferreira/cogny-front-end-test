@@ -1,0 +1,36 @@
+/* Grid de produtos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Três colunas */
+}
+
+/* Cartão do produto */
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: -40px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #333333;
+  margin-top: -10px;
+}
+
+.card p.price {
+  font-size: 1.6rem;  
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  color: #000000;
+} 
